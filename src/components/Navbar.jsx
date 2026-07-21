@@ -1,7 +1,7 @@
 import gsap from 'gsap'
 import React, { useEffect, useRef, useState } from 'react'
 import { TiLocationArrow } from 'react-icons/ti'
-import { useSetState, useWindowScroll } from 'react-use'
+import { useWindowScroll } from 'react-use'
 
 const navItems = ['Nexus', 'Vault', 'Prologue', 'About', 'Contact']
 
@@ -69,8 +69,8 @@ const Navbar = () => {
             <button
               id="product-button"
               title="Products"
-              rightIcon={<TiLocationArrow />}
-              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+              righticon={<TiLocationArrow />}
+              containerclass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
             />
           </div>
 
