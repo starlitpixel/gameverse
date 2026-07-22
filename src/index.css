@@ -56,15 +56,6 @@ body {
   /* color base (yellow) */
   --color-yellow-100: #8e983f;
   --color-yellow-300: #edff66;
-
-  /* color base (gray) */
-  --color-gray-100: #cecfd2;
-
-  /* color base (black) */
-  --color-black-100: #0f0f0f;
-  --color-black-300: #1c1c21;
-  --color-black-500: #3a3a49;
-  --color-black-600: #1a1a1a;
 }
 
 
@@ -117,8 +108,6 @@ body {
 
   .animated-word {
     @apply font-zentry font-black opacity-0;
-  
-    font-feature-settings: "ss01" on;
     transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
     transform-origin: 50% 50% -150px !important;
     will-change: opacity, transform;
